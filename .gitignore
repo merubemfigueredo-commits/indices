@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.env
+.venv
+venv/
+env/
+
+# Streamlit
+.streamlit/
+
+# Dados e arquivos temporários
+*.pdf
+*.csv
+*.xlsx
+*.db
+*.sqlite3
+data/
+output/
+
+# Sistema
+.DS_Store
+.idea/
+.vscode/
