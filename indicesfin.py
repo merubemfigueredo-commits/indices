@@ -468,7 +468,7 @@ st.download_button(
 )
 
 st.caption("O relatório PDF contém todos os dados de entrada e os índices calculados.")
-
+"""
 # ─────────────────────────────────────────────
 #  Download do código-fonte
 # ─────────────────────────────────────────────
@@ -489,3 +489,4 @@ st.download_button(
 st.caption(
     "Requisitos para execução local: `pip install streamlit reportlab`  →  `streamlit run app.py`"
 )
+"""
