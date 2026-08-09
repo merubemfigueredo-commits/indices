@@ -1,4 +1,6 @@
 pandas>=2.2.2
-fpdf2>=2.7.6
+## fpdf2>=2.7.6
 streamlit>=1.28.0
 reportlab>=3.6.0
+selenium
+webdriver-manager
