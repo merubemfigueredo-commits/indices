@@ -490,7 +490,7 @@ def main():
     options.add_argument('--disable-gpu')
     options.add_argument('--window-size=1920,1080')
 
-    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+    #driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
     try:
         driver.get(STREAMLIT_URL)
@@ -521,7 +521,7 @@ def main():
         print(f"Unexpected error: {e}")
         exit(1)
     finally:
-        driver.quit()
+       # driver.quit()
         print("Script finished.")
 
 if __name__ == "__main__":
